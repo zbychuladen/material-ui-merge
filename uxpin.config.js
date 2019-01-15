@@ -48,7 +48,14 @@ module.exports = {
           'src/SnackBar/SnackBar.js',
           'src/SnackBarContent/SnackBarContent.js',
           'src/Tab/Tab.js',
-          'src/Tabs/Tabs.js'
+          'src/Tabs/Tabs.js',
+          'src/List/List.js',
+          'src/ListItem/ListItem.js',
+          'src/ListItemAvatar/ListItemAvatar.js',
+          'src/ListItemIcon/ListItemIcon.js',
+          'src/ListItemSecondaryAction/ListItemSecondaryAction.js',
+          'src/ListItemText/ListItemText.js',
+          'src/ListSubheader/ListSubheader.js'
         ]
       }
     ]
