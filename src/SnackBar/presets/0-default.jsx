@@ -2,5 +2,5 @@ import * as React from 'react';
 import SnackBarM from '../SnackBar';
 
 export default (
-  <SnackBarM />
+  <SnackBarM open message="Hello Merge!"/>
 );

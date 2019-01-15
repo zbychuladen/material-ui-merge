@@ -46,7 +46,9 @@ module.exports = {
           'src/CircularProgress/CircularProgress.js',
           'src/LinearProgress/LinearProgress.js',
           'src/SnackBar/SnackBar.js',
-          'src/SnackBarContent/SnackBarContent.js'
+          'src/SnackBarContent/SnackBarContent.js',
+          'src/Tab/Tab.js',
+          'src/Tabs/Tabs.js'
         ]
       }
     ]
