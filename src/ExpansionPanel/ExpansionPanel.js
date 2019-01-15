@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ExpansionPanel from "@material-ui/core/es/ExpansionPanel";
+import ExpansionPanel from "@material-ui/core/ExpansionPanel";
 
 function ExpansionPanelM(props) {
   return <ExpansionPanel {...props}>{props.children}</ExpansionPanel>;

@@ -30,7 +30,8 @@ export default (
       subheader="September 14, 2016"
     />
     <CardMedia key="1.2"
-      src="https://www.platingsandpairings.com/wp-content/uploads/2016/01/Paella-1-Square.jpg"
+      image="https://www.platingsandpairings.com/wp-content/uploads/2016/01/Paella-1-Square.jpg"
+      style={{"height": "100px"}}
     />
     <CardContent key="1.3">
       <Typography component="p" key="1.3.1">

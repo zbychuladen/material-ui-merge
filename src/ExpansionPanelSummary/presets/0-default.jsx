@@ -1,5 +1,5 @@
 import * as React from "react";
-import ExpansionPanelSummaryM from "../../ExpansionPanelSummary/ExpansionPanelSummary";
+import ExpansionPanelSummaryM from "../ExpansionPanelSummary";
 import TypographyM from "../../Typography/Typography";
 
 const ExpansionPanelSummary = (props) => <ExpansionPanelSummaryM {...props}>{props.children}</ExpansionPanelSummaryM>;

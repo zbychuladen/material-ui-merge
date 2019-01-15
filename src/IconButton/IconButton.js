@@ -7,6 +7,7 @@ function IconButtonM(props) {
 }
 
 IconButtonM.propTypes = {
+  onClick: PropTypes.func,
   /**
    * The icon element.
    */

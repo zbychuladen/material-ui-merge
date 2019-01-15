@@ -42,7 +42,11 @@ module.exports = {
           'src/ExpansionPanelDetails/ExpansionPanelDetails.js',
           'src/ExpansionPanelSummary/ExpansionPanelSummary.js',
           'src/Paper/Paper.js',
-          'src/Collapse/Collapse.js'
+          'src/Collapse/Collapse.js',
+          'src/CircularProgress/CircularProgress.js',
+          'src/LinearProgress/LinearProgress.js',
+          'src/SnackBar/SnackBar.js',
+          'src/SnackBarContent/SnackBarContent.js'
         ]
       }
     ]
