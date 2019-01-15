@@ -4,51 +4,80 @@ module.exports = {
       {
         name: 'General',
         include: [
-          'src/Button/Button.js',
           'src/Icon/Icon.js',
           'src/Typography/Typography.js',
-          'src/Avatar/Avatar.js',
-          'src/Badge/Badge.js',
-          'src/Backdrop/Backdrop.js',
+        ]
+      },
+      {
+        "name": "Actions",
+        "include": [
+          'src/Button/Button.js',
           'src/IconButton/IconButton.js',
+        ]
+      },
+      {
+        "name": "Navigation",
+        "include": [
+          'src/AppBar/AppBar.js',
+          'src/Toolbar/Toolbar.js',
           'src/BottomNavigation/BottomNavigation.js',
           'src/BottomNavigationAction/BottomNavigationAction.js',
+          'src/Tab/Tab.js',
+          'src/Tabs/Tabs.js'
+        ]
+      },
+      {
+        "name": "Card",
+        "include": [
+          'src/Card/Card.js',
           'src/CardActions/CardActions.js',
           'src/CardContent/CardContent.js',
           'src/CardHeader/CardHeader.js',
-          'src/CardMedia/CardMedia.js',
-          'src/Card/Card.js',
+          'src/CardMedia/CardMedia.js'
+        ]
+      },
+      {
+        "name": "Form",
+        "include": [
           'src/Checkbox/Checkbox.js',
-          'src/Chip/Chip.js',
+          'src/Radio/Radio.js',
           'src/Switch/Switch.js',
           'src/TextField/TextField.js',
-          'src/MenuItem/MenuItem.js',
+          'src/Input/Input.js',
           'src/Select/Select.js',
+          'src/RadioGroup/RadioGroup.js',
+          'src/MenuItem/MenuItem.js',
           'src/OutlinedInput/OutlinedInput.js',
           'src/FilledInput/FilledInput.js',
-          'src/Input/Input.js',
           'src/InputLabel/InputLabel.js',
           'src/FormControl/FormControl.js',
           'src/FormHelperText/FormHelperText.js',
           'src/FormGroup/FormGroup.js',
           'src/FormControlLabel/FormControlLabel.js',
           'src/FormLabel/FormLabel.js',
-          'src/Radio/Radio.js',
           'src/RadioGroup/RadioGroup.js',
-          'src/AppBar/AppBar.js',
-          'src/Toolbar/Toolbar.js',
+        ]
+      },
+      {
+        "name": "Content",
+        "include": [
+          'src/Paper/Paper.js',
           'src/ExpansionPanel/ExpansionPanel.js',
           'src/ExpansionPanelActions/ExpansionPanelActions.js',
           'src/ExpansionPanelDetails/ExpansionPanelDetails.js',
           'src/ExpansionPanelSummary/ExpansionPanelSummary.js',
-          'src/Paper/Paper.js',
           'src/Collapse/Collapse.js',
-          'src/CircularProgress/CircularProgress.js',
-          'src/LinearProgress/LinearProgress.js',
           'src/SnackBar/SnackBar.js',
           'src/SnackBarContent/SnackBarContent.js',
-          'src/Tab/Tab.js',
-          'src/Tabs/Tabs.js',
+          'src/Avatar/Avatar.js',
+          'src/Badge/Badge.js',
+          'src/Backdrop/Backdrop.js',
+          'src/Chip/Chip.js'
+        ]
+      },
+      {
+        "name": "List",
+        "include": [
           'src/List/List.js',
           'src/ListItem/ListItem.js',
           'src/ListItemAvatar/ListItemAvatar.js',
@@ -56,6 +85,13 @@ module.exports = {
           'src/ListItemSecondaryAction/ListItemSecondaryAction.js',
           'src/ListItemText/ListItemText.js',
           'src/ListSubheader/ListSubheader.js'
+        ]
+      },
+      {
+        "name": "Progress",
+        "include": [
+          'src/CircularProgress/CircularProgress.js',
+          'src/LinearProgress/LinearProgress.js'
         ]
       }
     ]
