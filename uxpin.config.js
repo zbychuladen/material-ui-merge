@@ -13,6 +13,7 @@ module.exports = {
         "include": [
           'src/Button/Button.js',
           'src/IconButton/IconButton.js',
+          'src/Fab/Fab.js'
         ]
       },
       {
