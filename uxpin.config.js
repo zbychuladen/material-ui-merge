@@ -28,6 +28,15 @@ module.exports = {
         ]
       },
       {
+        "name": "Layout",
+        "include": [
+          'src/Grid/Grid.js',
+          'src/GridList/GridList.js',
+          'src/GridListTile/GridListTile.js',
+          'src/GridListTileBar/GridListTileBar.js'
+        ]
+      },
+      {
         "name": "Card",
         "include": [
           'src/Card/Card.js',
@@ -93,6 +102,12 @@ module.exports = {
         "include": [
           'src/CircularProgress/CircularProgress.js',
           'src/LinearProgress/LinearProgress.js'
+        ]
+      },
+      {
+        "name": "HTML Elements Wrappers",
+        "include": [
+          'src/Image/Image.js'
         ]
       }
     ]
