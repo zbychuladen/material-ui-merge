@@ -1,11 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Select from "@material-ui/core/Select";
-import InputM from "../Input/Input";
+import SelectM from "@material-ui/core/Select";
+import Input from "../Input/Input";
 
-const Input = (props) => <InputM {...props}/>;
-
-export default class SelectM extends React.Component {
+export default class Select extends React.Component {
   constructor(props) {
     super(props);
 
@@ -21,13 +19,13 @@ export default class SelectM extends React.Component {
 
   render() {
     return (
-    <Select {...this.props} input={!this.props.input ? <Input /> : this.props.input} onChange={(e) => this.handleChange(e)} value={this.state.selected}>
+    <SelectM {...this.props} input={!this.props.input ? <Input /> : this.props.input} onChange={(e) => this.handleChange(e)} value={this.state.selected}>
       {this.props.children}
-    </Select>);
+    </SelectM>);
   }
 }
 
-SelectM.propTypes = {
+Select.propTypes = {
   /**
    * If true, the width of the popover will automatically be set according to the items inside the
    * menu, otherwise it will be at least the width of the select input.

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import InputM from '../../Input/Input';
+import Input from '../../Input/Input';
 
 export default (
-  <InputM key="1" />
+  <Input key="1" />
 );

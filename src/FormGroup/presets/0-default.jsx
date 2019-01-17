@@ -1,13 +1,8 @@
 import * as React from "react";
-import FormGroupM from "../FormGroup";
-import FormControlLabelM from "../../FormControlLabel/FormControlLabel";
-import FormControlM from "../../FormControl/FormControl";
-import FormLabelM from "../../FormLabel/FormLabel";
-
-const FormControl = (props) => <FormControlM {...props}>{props.children}</FormControlM>;
-const FormLabel = (props) => <FormLabelM {...props}>{props.children}</FormLabelM>;
-const FormControlLabel = (props) => <FormControlLabelM {...props}>{props.children}</FormControlLabelM>;
-const FormGroup = (props) => <FormGroupM {...props}>{props.children}</FormGroupM>;
+import FormGroup from "../FormGroup";
+import FormControlLabel from "../../FormControlLabel/FormControlLabel";
+import FormControl from "../../FormControl/FormControl";
+import FormLabel from "../../FormLabel/FormLabel";
 
 export default (
   <FormControl component="fieldset" key="1">

@@ -1,21 +1,14 @@
 import * as React from "react";
-import AppBarM from "../AppBar";
-import ToolbarM from "../../Toolbar/Toolbar";
-import IconButtonM from "../../IconButton/IconButton";
-import IconM from "../../Icon/Icon";
-import TypographyM from "../../Typography/Typography";
-import ButtonM from "../../Button/Button";
-
-const AppBar = (props) => <AppBarM {...props}>{props.children}</AppBarM>;
-const Toolbar = (props) => <ToolbarM {...props}>{props.children}</ToolbarM>;
-const IconButton = (props) => <IconButtonM {...props}>{props.children}</IconButtonM>;
-const Icon = (props) => <IconM {...props}>{props.children}</IconM>;
-const Typography = (props) => <TypographyM {...props}>{props.children}</TypographyM>;
-const Button = (props) => <ButtonM {...props}>{props.children}</ButtonM>;
+import AppBar from "../AppBar";
+import Toolbar from "../../Toolbar/Toolbar";
+import IconButton from "../../IconButton/IconButton";
+import Icon from "../../Icon/Icon";
+import Typography from "../../Typography/Typography";
+import Button from "../../Button/Button";
 
 export default (
   <AppBar position="static" key="1">
-    <Toolbar key="2">
+    <Toolbar key="2" justifyContent="space-between">
       <IconButton
         color="inherit"
         aria-label="Menu"

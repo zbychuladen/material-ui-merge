@@ -1,6 +1,6 @@
 import * as React from 'react';
-import OutlinedInputM from '../../OutlinedInput/OutlinedInput';
+import OutlinedInput from '../../OutlinedInput/OutlinedInput';
 
 export default (
-  <OutlinedInputM key="1" />
+  <OutlinedInput key="1" />
 );

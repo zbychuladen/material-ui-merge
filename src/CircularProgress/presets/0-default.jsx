@@ -1,8 +1,8 @@
 import * as React from 'react';
-import CircularProgressM from '../CircularProgress';
+import CircularProgress from '../CircularProgress';
 
 export default (
-  <CircularProgressM 
+  <CircularProgress 
     key="1"
     size={68}
     />

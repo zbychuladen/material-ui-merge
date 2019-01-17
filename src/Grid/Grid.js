@@ -1,13 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Grid from "@material-ui/core/Grid";
+import GridM from "@material-ui/core/Grid";
 
-function GridM(props) {
+function Grid(props) {
   const space = Number(props.spacing);
-  return <Grid {...props} spacing={space}>{props.children}</Grid>;
+  return <GridM {...props} spacing={space}>{props.children}</GridM>;
 }
 
-GridM.propTypes = {
+Grid.propTypes = {
   /**
    * Defines the `align-content` style property.
    * It's applied for all screen sizes.
@@ -140,4 +140,4 @@ GridM.propTypes = {
   zeroMinWidth: PropTypes.bool
 };
 
-export { GridM as default };
+export { Grid as default };

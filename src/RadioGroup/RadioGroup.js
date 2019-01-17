@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import RadioGroup from "@material-ui/core/RadioGroup";
+import RadioGroupM from "@material-ui/core/RadioGroup";
 
-function RadioGroupM(props) {
-  return <RadioGroup {...props}>{props.children}</RadioGroup>;
+function RadioGroup(props) {
+  return <RadioGroupM {...props}>{props.children}</RadioGroupM>;
 }
 
-RadioGroupM.propTypes = {
+RadioGroup.propTypes = {
   /**
    * The content of the component.
    */
@@ -42,4 +42,4 @@ RadioGroupM.propTypes = {
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool])
 };
 
-export { RadioGroupM as default };
+export { RadioGroup as default };

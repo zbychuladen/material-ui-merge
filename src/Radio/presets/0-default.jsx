@@ -1,6 +1,6 @@
 import * as React from 'react';
-import RadioM from '../Radio';
+import Radio from '../Radio';
 
 export default (
-  <RadioM key="1" />
+  <Radio key="1" />
 );

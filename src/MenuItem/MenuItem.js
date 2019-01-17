@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import MenuItem from "@material-ui/core/MenuItem";
+import MenuItemM from "@material-ui/core/MenuItem";
 
-function MenuItemM(props) {
-  return <MenuItem {...props}>{props.children}</MenuItem>;
+function MenuItem(props) {
+  return <MenuItemM {...props}>{props.children}</MenuItemM>;
 }
 
-MenuItemM.propTypes = {
+MenuItem.propTypes = {
   /**
    * Menu item contents.
    */
@@ -36,4 +36,4 @@ MenuItemM.propTypes = {
   onClick: PropTypes.func
 };
 
-export { MenuItemM as default };
+export { MenuItem as default };

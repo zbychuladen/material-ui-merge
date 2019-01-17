@@ -1,17 +1,24 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Fab from "@material-ui/core/Fab";
+import FabM from "@material-ui/core/Fab";
 
-function FabM(props) {
-  return <Fab {...props}>{props.children}</Fab>;
+function Fab(props) {
+  return <FabM {...props}>{props.children}{props.label}</FabM>;
 }
 
-FabM.propTypes = {
-/**
+Fab.propTypes = {
+  /**
+   * OnClick event
+   */
+  onClick: PropTypes.func,
+  /**
    * The content of the button.
    */
-  children: PropTypes.oneOfType([PropTypes.node, PropTypes.string]),
-
+  children: PropTypes.node,
+  /**
+   * Label of the button.
+   */
+  label: PropTypes.string,
   /**
    * Override or extend the styles applied to the component.
    * See [CSS API](#css-api) below for more details.
@@ -78,4 +85,4 @@ FabM.propTypes = {
   variant: PropTypes.oneOf(['round', 'extended'])  
 };
 
-export { FabM as default };
+export { Fab as default };

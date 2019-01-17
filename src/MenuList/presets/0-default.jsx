@@ -1,15 +1,9 @@
 import * as React from 'react';
-import MenuListM from '../MenuList';
-import MenuItemM from "../../MenuItem/MenuItem";
-import ListItemIconM from "../../ListItemIcon/ListItemIcon";
-import ListItemTextM from "../../ListItemText/ListItemText";
-import IconM from "../../Icon/Icon";
-
-const MenuList = (props) => <MenuListM {...props}>{props.children}</MenuListM>;
-const MenuItem = (props) => <MenuItemM {...props}>{props.children}</MenuItemM>;
-const ListItemIcon = (props) => <ListItemIconM {...props}>{props.children}</ListItemIconM>;
-const ListItemText = (props) => <ListItemTextM {...props}>{props.children}</ListItemTextM>;
-const Icon = (props) => <IconM {...props}>{props.children}</IconM>;
+import MenuList from '../MenuList';
+import MenuItem from "../../MenuItem/MenuItem";
+import ListItemIcon from "../../ListItemIcon/ListItemIcon";
+import ListItemText from "../../ListItemText/ListItemText";
+import Icon from "../../Icon/Icon";
 
 export default (
   <MenuList key="1">

@@ -19,7 +19,7 @@ import deepOrange from "@material-ui/core/colors/deepOrange";
 import brown from "@material-ui/core/colors/brown";
 import grey from "@material-ui/core/colors/grey";
 import blueGrey from "@material-ui/core/colors/blueGrey";
-import Avatar from "@material-ui/core/Avatar";
+import AvatarM from "@material-ui/core/Avatar";
 
 function colorSelector(shade, hue) {
   if(hue !== undefined) {
@@ -75,9 +75,9 @@ function colorSelector(shade, hue) {
   
 }
 
-function AvatarM(props) {
+function Avatar(props) {
   return (
-    <Avatar
+    <AvatarM
       {...props}
       style={{
         backgroundColor: colorSelector(
@@ -88,11 +88,11 @@ function AvatarM(props) {
       }}
     >
       {props.children}
-    </Avatar>
+    </AvatarM>
   );
 }
 
-AvatarM.propTypes = {
+Avatar.propTypes = {
   /**
    * Color of the background of the avatar. Visible unless there's an image inside of the circle.
    */
@@ -223,4 +223,4 @@ AvatarM.propTypes = {
   srcSet: PropTypes.string
 };
 
-export { AvatarM as default };
+export { Avatar as default };

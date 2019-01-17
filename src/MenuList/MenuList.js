@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import MenuList from "@material-ui/core/MenuList";
+import MenuListM from "@material-ui/core/MenuList";
 
-function MenuListM(props) {
-  return <MenuList {...props}>{props.children}</MenuList>;
+function MenuList(props) {
+  return <MenuListM {...props}>{props.children}</MenuListM>;
 }
 
-MenuListM.propTypes = {
+MenuList.propTypes = {
     /**
    * MenuList contents, normally `MenuListItem`s.
    */
@@ -33,4 +33,4 @@ MenuListM.propTypes = {
   onKeyDown: PropTypes.func
 }
 
-export { MenuListM as default };
+export { MenuList as default };

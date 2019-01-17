@@ -1,9 +1,6 @@
 import * as React from "react";
-import GridM from "../Grid";
-import PaperM from "../../Paper/Paper";
-
-const Grid = (props) => <GridM {...props}>{props.children}</GridM>;
-const Paper = (props) => <PaperM {...props}>{props.children}</PaperM>;
+import Grid from "../Grid";
+import Paper from "../../Paper/Paper";
 
 export default (
   <Grid container spacing={24} key="1">

@@ -1,26 +1,9 @@
 import * as React from "react";
-import ExpansionPanelM from "../ExpansionPanel";
-import ExpansionPanelSummaryM from "../../ExpansionPanelSummary/ExpansionPanelSummary";
-import ExpansionPanelDetailsM from "../../ExpansionPanelDetails/ExpansionPanelDetails";
-import TypographyM from "../../Typography/Typography";
-import PaperM from "../../Paper/Paper";
-
-
-const ExpansionPanel = props => (
-  <ExpansionPanelM {...props}>{props.children}</ExpansionPanelM>
-);
-const ExpansionPanelSummary = props => (
-  <ExpansionPanelSummaryM {...props}>{props.children}</ExpansionPanelSummaryM>
-);
-const ExpansionPanelDetails = props => (
-  <ExpansionPanelDetailsM {...props}>{props.children}</ExpansionPanelDetailsM>
-);
-const Typography = props => (
-  <TypographyM {...props}>{props.children}</TypographyM>
-);
-const Paper = props => (
-  <PaperM {...props}>{props.children}</PaperM>
-);
+import ExpansionPanel from "../ExpansionPanel";
+import ExpansionPanelSummary from "../../ExpansionPanelSummary/ExpansionPanelSummary";
+import ExpansionPanelDetails from "../../ExpansionPanelDetails/ExpansionPanelDetails";
+import Typography from "../../Typography/Typography";
+import Paper from "../../Paper/Paper";
 
 export default (
   <Paper key="paper0">
@@ -48,5 +31,3 @@ export default (
     </ExpansionPanel>
   </Paper>
 );
-
-// expandIcon={`<Icon>expand_more</Icon>`}

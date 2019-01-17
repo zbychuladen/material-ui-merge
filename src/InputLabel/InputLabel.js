@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import InputLabel from "@material-ui/core/InputLabel";
+import InputLabelM from "@material-ui/core/InputLabel";
 
-function InputLabelM(props) {
-  return <InputLabel {...props}>{props.children}</InputLabel>;
+function InputLabel(props) {
+  return <InputLabelM {...props}>{props.children}</InputLabelM>;
 }
 
-InputLabelM.propTypes = {
+InputLabel.propTypes = {
   /**
    * The contents of the `InputLabel`.
    */
@@ -75,4 +75,4 @@ InputLabelM.propTypes = {
   variant: PropTypes.oneOf(["standard", "outlined", "filled"])
 };
 
-export { InputLabelM as default };
+export { InputLabel as default };

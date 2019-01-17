@@ -1,13 +1,9 @@
 import * as React from 'react';
-import FabM from '../Fab';
-import IconM from '../../Icon/Icon';
-
-const Fab = (props) => <FabM {...props}>{props.children}</FabM>;
-const Icon = (props) => <IconM {...props}>{props.children}</IconM>;
+import Fab from '../Fab';
+import Icon from '../../Icon/Icon';
 
 export default (
-  <Fab key="1">
-    <Icon>navigation</Icon>
-    Extended
+  <Fab key="1" label="navigation" variant="extended" color="">
+    <Icon key="2">navigation</Icon>
   </Fab>
 );

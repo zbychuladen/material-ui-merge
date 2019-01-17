@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Icon from "@material-ui/core/Icon";
+import IconM from "@material-ui/core/Icon";
 
-function IconM(props) {
-  return <Icon {...props}>{props.children}</Icon>;
+function Icon(props) {
+  return <IconM {...props}>{props.children}</IconM>;
 }
 
-IconM.propTypes = {
+Icon.propTypes = {
   /**
    * The name of the icon font ligature.
    */
@@ -36,4 +36,4 @@ IconM.propTypes = {
   fontSize: PropTypes.oneOf(["inherit", "default", "small", "large"])
 };
 
-export { IconM as default };
+export { Icon as default };

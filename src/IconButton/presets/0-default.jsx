@@ -1,11 +1,9 @@
 import * as React from 'react';
-import IconButtonM from '../IconButton';
-import IconM from '../../Icon/Icon';
-
-const Icon = (props) => <IconM {...props}>{props.children}</IconM>;
+import IconButton from '../IconButton';
+import Icon from '../../Icon/Icon';
 
 export default (
-  <IconButtonM key="1">
+  <IconButton key="1">
     <Icon key="2">home</Icon>
-  </IconButtonM>
+  </IconButton>
 );

@@ -1,12 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Link from "@material-ui/core/Link";
+import LinkM from "@material-ui/core/Link";
 
-function LinkM(props) {
-  return <Link {...props}>{props.children}</Link>;
+function Link(props) {
+  /** Display inline-block fixes problems in positioning on canvas in UXPin */
+  return <LinkM {...props} style={{"display": "inline-block"}}>{props.children}</LinkM>;
 }
 
-LinkM.propTypes = {
+Link.propTypes = {
   onClick: PropTypes.func,
   /**
    *  Controls whether the link is inline or not. When `block` is true the link is not inline
@@ -63,4 +64,4 @@ LinkM.propTypes = {
   variant: PropTypes.string 
 }
 
-export { LinkM as default };
+export { Link as default };

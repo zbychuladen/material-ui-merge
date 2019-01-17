@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import LinearProgress from "@material-ui/core/LinearProgress";
+import LinearProgressM from "@material-ui/core/LinearProgress";
 
-function LinearProgressM(props) {
-  return <LinearProgress {...props} />;
+function LinearProgress(props) {
+  return <LinearProgressM {...props} />;
 }
 
-LinearProgressM.propTypes = {
+LinearProgress.propTypes = {
  /**
    * Override or extend the styles applied to the component.
    * See [CSS API](#css-api) below for more details.
@@ -42,4 +42,4 @@ LinearProgressM.propTypes = {
   variant: PropTypes.oneOf(['determinate', 'indeterminate', 'buffer', 'query'])
 }
 
-export { LinearProgressM as default };
+export { LinearProgress as default };

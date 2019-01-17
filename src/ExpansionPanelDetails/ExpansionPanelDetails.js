@@ -2,11 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
 
-function ExpansionPanelDetailsM(props) {
-  return <ExpansionPanelDetails {...props}>{props.children}</ExpansionPanelDetails>;
+function ExpansionPanelDetails(props) {
+  return <ExpansionPanelDetailsM {...props}>{props.children}</ExpansionPanelDetailsM>;
 }
 
-ExpansionPanelDetailsM.propTypes = {
+ExpansionPanelDetails.propTypes = {
   /**
    * The content of the expansion panel details.
    */
@@ -24,4 +24,4 @@ ExpansionPanelDetailsM.propTypes = {
   className: PropTypes.string
 };
 
-export { ExpansionPanelDetailsM as default };
+export { ExpansionPanelDetails as default };

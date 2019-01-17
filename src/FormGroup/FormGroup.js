@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import FormGroup from "@material-ui/core/FormGroup";
+import FormGroupM from "@material-ui/core/FormGroup";
 
-function FormGroupM(props) {
-  return <FormGroup {...props}>{props.children}</FormGroup>;
+function FormGroup(props) {
+  return <FormGroupM {...props}>{props.children}</FormGroupM>;
 }
 
-FormGroupM.propTypes = {
+FormGroup.propTypes = {
   /**
    * The content of the component.
    */
@@ -29,4 +29,4 @@ FormGroupM.propTypes = {
   row: PropTypes.bool
 };
 
-export { FormGroupM as default };
+export { FormGroup as default };

@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ListItemSecondaryAction from "@material-ui/core/ListItemSecondaryAction";
+import ListItemSecondaryActionM from "@material-ui/core/ListItemSecondaryAction";
 
-function ListItemSecondaryActionM(props) {
-  return <ListItemSecondaryAction {...props}>{props.children}</ListItemSecondaryAction>;
+function ListItemSecondaryAction(props) {
+  return <ListItemSecondaryActionM {...props}>{props.children}</ListItemSecondaryActionM>;
 }
 
-ListItemSecondaryActionM.propTypes = {
+ListItemSecondaryAction.propTypes = {
   /**
    * The content of the component, normally an `IconButton` or selection control.
    */
@@ -24,4 +24,4 @@ ListItemSecondaryActionM.propTypes = {
   className: PropTypes.string 
 };
 
-export { ListItemSecondaryActionM as default };
+export { ListItemSecondaryAction as default };

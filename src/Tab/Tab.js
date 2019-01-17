@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Tab from "@material-ui/core/Tab";
+import TabM from "@material-ui/core/Tab";
 
-function TabM(props) {
-  return <Tab {...props} />;
+function Tab(props) {
+  return <TabM {...props} />;
 }
 
-TabM.propTypes = {
+Tab.propTypes = {
  /**
    * This property isn't supported.
    * Use the `component` property if you need to change the children structure.
@@ -77,4 +77,4 @@ TabM.propTypes = {
   value: PropTypes.any 
 };
 
-export { TabM as default };
+export { Tab as default };

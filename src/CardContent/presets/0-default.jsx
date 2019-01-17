@@ -1,13 +1,9 @@
 import * as React from "react";
-import CardContentM from "../CardContent";
-import TypographyM from "../../Typography/Typography";
-
-let Typography = props => (
-  <TypographyM {...props}>{props.children}</TypographyM>
-);
+import CardContent from "../CardContent";
+import Typography from "../../Typography/Typography";
 
 export default (
-  <CardContentM key="1">
+  <CardContent key="1">
     <Typography key="2" paragraph>Method:</Typography>
     <Typography key="3" paragraph>
       Heat 1/2 cup of the broth in a pot until simmering, add saffron and set
@@ -33,5 +29,5 @@ export default (
     <Typography key="6">
       Set aside off of the heat to let rest for 10 minutes, and then serve.
     </Typography>
-  </CardContentM>
+  </CardContent>
 );

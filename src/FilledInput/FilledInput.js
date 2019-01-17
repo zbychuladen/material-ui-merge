@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import FilledInput from "@material-ui/core/FilledInput";
+import FilledInputM from "@material-ui/core/FilledInput";
 
-function FilledInputM(props) {
-  return <FilledInput {...props}>{props.children}</FilledInput>;
+function FilledInput(props) {
+  return <FilledInputM {...props}>{props.children}</FilledInputM>;
 }
 
-FilledInputM.propTypes = {
+FilledInput.propTypes = {
   /**
    * This property helps users to fill forms faster, especially on mobile devices.
    * The name can be confusing, as it's more like an autofill.
@@ -153,4 +153,4 @@ FilledInputM.propTypes = {
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool, PropTypes.object, PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool, PropTypes.object]))])
 };
 
-export { FilledInputM as default };
+export { FilledInput as default };

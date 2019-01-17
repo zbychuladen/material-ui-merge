@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import FormControlLabel from "@material-ui/core/FormControlLabel";
+import FormControlLabelM from "@material-ui/core/FormControlLabel";
 
-function FormControlLabelM(props) {
-  return <FormControlLabel {...props}>{props.children}</FormControlLabel>;
+function FormControlLabel(props) {
+  return <FormControlLabelM {...props}>{props.children}</FormControlLabelM>;
 }
 
-FormControlLabelM.propTypes = {
+FormControlLabel.propTypes = {
 /**
    * If `true`, the component appears selected.
    */
@@ -73,4 +73,4 @@ FormControlLabelM.propTypes = {
   value: PropTypes.string
 };
 
-export { FormControlLabelM as default };
+export { FormControlLabel as default };

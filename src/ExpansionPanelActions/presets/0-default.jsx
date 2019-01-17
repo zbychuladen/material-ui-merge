@@ -1,12 +1,6 @@
 import * as React from "react";
-import ExpansionPanelActionsM from "../ExpansionPanelActions";
-import ButtonM from "../../Button/Button";
-
-const ExpansionPanelActions = props => (
-  <ExpansionPanelActionsM {...props}>{props.children}</ExpansionPanelActionsM>
-);
-
-const Button = props => <ButtonM {...props}>{props.children}</ButtonM>;
+import ExpansionPanelActions from "../ExpansionPanelActions";
+import Button from "../../Button/Button";
 
 export default (
   <ExpansionPanelActions key="1">

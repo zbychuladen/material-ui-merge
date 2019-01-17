@@ -1,14 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
+import ExpansionPanelSummaryM from "@material-ui/core/ExpansionPanelSummary";
 
-function ExpansionPanelSummaryM(props) {
+function ExpansionPanelSummary(props) {
   return (
-    <ExpansionPanelSummary {...props}>{props.children}</ExpansionPanelSummary>
+    <ExpansionPanelSummaryM {...props}>{props.children}</ExpansionPanelSummaryM>
   );
 }
 
-ExpansionPanelSummaryM.propTypes = {
+ExpansionPanelSummary.propTypes = {
   /**
    * The content of the expansion panel summary.
    */
@@ -58,4 +58,4 @@ ExpansionPanelSummaryM.propTypes = {
   onClick: PropTypes.func
 };
 
-export { ExpansionPanelSummaryM as default };
+export { ExpansionPanelSummary as default };

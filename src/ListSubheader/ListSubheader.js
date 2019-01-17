@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ListSubheader from "@material-ui/core/ListSubheader";
+import ListSubheaderM from "@material-ui/core/ListSubheader";
 
-function ListSubheaderM(props) {
-  return <ListSubheader {...props}>{props.children}</ListSubheader>;
+function ListSubheader(props) {
+  return <ListSubheaderM {...props}>{props.children}</ListSubheaderM>;
 }
 
-ListSubheaderM.propTypes = {
+ListSubheader.propTypes = {
   /**
    * The content of the component.
    */
@@ -50,4 +50,4 @@ ListSubheaderM.propTypes = {
   inset: PropTypes.bool 
 };
 
-export { ListSubheaderM as default };
+export { ListSubheader as default };

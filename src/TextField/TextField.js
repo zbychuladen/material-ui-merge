@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import TextField from "@material-ui/core/TextField";
+import TextFieldM from "@material-ui/core/TextField";
 
-function TextFieldM(props) {
-  return <TextField {...props} />;
+function TextField(props) {
+  return <TextFieldM {...props} />;
 }
 
-TextFieldM.propTypes = {
+TextField.propTypes = {
   /**
    * This property helps users to fill forms faster, especially on mobile devices.
    * The name can be confusing, as it's more like an autofill.
@@ -172,4 +172,4 @@ TextFieldM.propTypes = {
   variant: PropTypes.oneOf(["standard", "outlined", "filled"])
 };
 
-export { TextFieldM as default };
+export { TextField as default };

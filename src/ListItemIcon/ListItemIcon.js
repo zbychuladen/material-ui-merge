@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ListItemIcon from "@material-ui/core/ListItemIcon";
+import ListItemIconM from "@material-ui/core/ListItemIcon";
 
-function ListItemIconM(props) {
-  return <ListItemIcon {...props}>{props.children}</ListItemIcon>;
+function ListItemIcon(props) {
+  return <ListItemIconM {...props}>{props.children}</ListItemIconM>;
 }
 
-ListItemIconM.propTypes = {
+ListItemIcon.propTypes = {
   /**
    * The content of the component, normally `Icon`, `SvgIcon`,
    * or a `@material-ui/icons` SVG icon element.
@@ -25,4 +25,4 @@ ListItemIconM.propTypes = {
   className: PropTypes.string
 };
 
-export { ListItemIconM as default };
+export { ListItemIcon as default };

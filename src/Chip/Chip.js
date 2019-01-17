@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Chip from "@material-ui/core/Chip";
+import ChipM from "@material-ui/core/Chip";
 
-function ChipM(props) {
-  return <Chip {...props} />;
+function Chip(props) {
+  return <ChipM {...props} />;
 }
 
-ChipM.propTypes = {
+Chip.propTypes = {
   /**
    * Avatar element.
    */
@@ -74,4 +74,4 @@ ChipM.propTypes = {
   variant: PropTypes.oneOf(["default", "outlined"])
 };
 
-export { ChipM as default };
+export { Chip as default };

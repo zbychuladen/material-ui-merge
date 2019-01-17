@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ExpansionPanel from "@material-ui/core/ExpansionPanel";
+import ExpansionPanelM from "@material-ui/core/ExpansionPanel";
 
-function ExpansionPanelM(props) {
-  return <ExpansionPanel {...props}>{props.children}</ExpansionPanel>;
+function ExpansionPanel(props) {
+  return <ExpansionPanelM {...props}>{props.children}</ExpansionPanelM>;
 }
 
-ExpansionPanelM.propTypes = {
+ExpansionPanel.propTypes = {
   /**
    * The content of the expansion panel.
    */
@@ -53,4 +53,4 @@ ExpansionPanelM.propTypes = {
   onChange: PropTypes.func
 };
 
-export { ExpansionPanelM as default };
+export { ExpansionPanel as default };

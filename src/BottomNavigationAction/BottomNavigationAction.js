@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
+import BottomNavigationActionM from "@material-ui/core/BottomNavigationAction";
 
-function BottomNavigationActionM(props) {
-  return <BottomNavigationAction {...props} />;
+function BottomNavigationAction(props) {
+  return <BottomNavigationActionM {...props} />;
 }
 
-BottomNavigationActionM.propTypes = {
+BottomNavigationAction.propTypes = {
   /**
    * Override or extend the styles applied to the component.
    */
@@ -31,4 +31,4 @@ BottomNavigationActionM.propTypes = {
   value: PropTypes.string
 };
 
-export { BottomNavigationActionM as default };
+export { BottomNavigationAction as default };

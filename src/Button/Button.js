@@ -1,16 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Button from "@material-ui/core/Button";
+import ButtonM from "@material-ui/core/Button";
 
-function ButtonM(props) {
+function Button(props) {
   return (
-    <Button {...props} onClick={props.onClick}>
+    <ButtonM {...props} onClick={props.onClick}>
       {props.children}
-    </Button>
+    </ButtonM>
   );
 }
 
-ButtonM.propTypes = {
+Button.propTypes = {
   onClick: PropTypes.func,
   /**
    * The content of the button.
@@ -78,4 +78,4 @@ ButtonM.propTypes = {
   ])
 };
 
-export { ButtonM as default };
+export { Button as default };

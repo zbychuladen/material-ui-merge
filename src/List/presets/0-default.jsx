@@ -1,25 +1,11 @@
 import * as React from "react";
-import ListM from "../List";
-import ListItemM from "../../ListItem/ListItem";
-import ListItemIconM from "../../ListItemIcon/ListItemIcon";
-import ListItemTextM from "../../ListItemText/ListItemText";
-import ListItemSecondaryActionM from "../../ListItemSecondaryAction/ListItemSecondaryAction";
-import SwitchM from "../../Switch/Switch";
-import IconM from "../../Icon/Icon";
-
-const List = props => <ListM {...props}>{props.children}</ListM>;
-const ListItem = props => <ListItemM {...props}>{props.children}</ListItemM>;
-const ListItemIcon = props => (
-  <ListItemIconM {...props}>{props.children}</ListItemIconM>
-);
-const ListItemText = props => <ListItemTextM {...props} />;
-const ListItemSecondaryAction = props => (
-  <ListItemSecondaryActionM {...props}>
-    {props.children}
-  </ListItemSecondaryActionM>
-);
-const Switch = props => <SwitchM {...props} />;
-const Icon = props => <IconM {...props}>{props.children}</IconM>;
+import List from "../List";
+import ListItem from "../../ListItem/ListItem";
+import ListItemIcon from "../../ListItemIcon/ListItemIcon";
+import ListItemText from "../../ListItemText/ListItemText";
+import ListItemSecondaryAction from "../../ListItemSecondaryAction/ListItemSecondaryAction";
+import Switch from "../../Switch/Switch";
+import Icon from "../../Icon/Icon";
 
 export default (
   <List subheader={`<ListSubheader>Settings</ListSubheader>`} key="1">

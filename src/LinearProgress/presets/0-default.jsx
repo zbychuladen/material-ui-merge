@@ -1,8 +1,8 @@
 import * as React from 'react';
-import LinearProgressM from '../LinearProgress';
+import LinearProgress from '../LinearProgress';
 
 export default (
-  <LinearProgressM 
+  <LinearProgress 
     key="1"
     />
 );

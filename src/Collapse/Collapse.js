@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Collapse from "@material-ui/core/Collapse";
+import CollapseM from "@material-ui/core/Collapse";
 
-function CollapseM(props) {
-  return <Collapse {...props}>{props.children}</Collapse>;
+function Collapse(props) {
+  return <CollapseM {...props}>{props.children}</CollapseM>;
 }
 
-CollapseM.propTypes = {
+Collapse.propTypes = {
  /**
    * The content node to be collapsed.
    */
@@ -86,4 +86,4 @@ CollapseM.propTypes = {
   }), PropTypes.oneOf(['auto'])])
 };
 
-export { CollapseM as default };
+export { Collapse as default };

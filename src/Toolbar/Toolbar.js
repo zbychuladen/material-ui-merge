@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Toolbar from "@material-ui/core/Toolbar";
+import ToolbarM from "@material-ui/core/Toolbar";
 
-function ToolbarM(props) {
-  return <Toolbar {...props} style={{"justifyContent": props.justifyContent}}>{props.children}</Toolbar>;
+function Toolbar(props) {
+  return <ToolbarM {...props} style={{"justifyContent": props.justifyContent}}>{props.children}</ToolbarM>;
 }
 
-ToolbarM.propTypes = {
+Toolbar.propTypes = {
   /**
    * Toolbar children, usually a mixture of `IconButton`, `Button` and `Typography`.
    */
@@ -35,4 +35,4 @@ ToolbarM.propTypes = {
   justifyContent: PropTypes.oneOf(["center", "flex-end", "flex-start", "space-around", "space-between", "space-evenly", "stretch"])
 };
 
-export { ToolbarM as default };
+export { Toolbar as default };

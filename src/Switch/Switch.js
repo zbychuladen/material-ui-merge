@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Switch from "@material-ui/core/Switch";
+import SwitchM from "@material-ui/core/Switch";
 
-function SwitchM(props) {
-  return <Switch {...props} />;
+function Switch(props) {
+  return <SwitchM {...props} />;
 }
 
-SwitchM.propTypes = {
+Switch.propTypes = {
   /**
    * If `true`, the component is checked.
    */
@@ -82,4 +82,4 @@ SwitchM.propTypes = {
   ])
 };
 
-export { SwitchM as default };
+export { Switch as default };

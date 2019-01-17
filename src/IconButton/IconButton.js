@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import IconButton from "@material-ui/core/IconButton";
+import IconButtonM from "@material-ui/core/IconButton";
 
-function IconButtonM(props) {
-  return <IconButton {...props}>{props.children}</IconButton>;
+function IconButton(props) {
+  return <IconButtonM {...props}>{props.children}</IconButtonM>;
 }
 
-IconButtonM.propTypes = {
+IconButton.propTypes = {
   onClick: PropTypes.func,
   /**
    * The icon element.
@@ -31,4 +31,4 @@ IconButtonM.propTypes = {
   disableRipple: PropTypes.bool
 };
 
-export { IconButtonM as default };
+export { IconButton as default };

@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import List from "@material-ui/core/List";
+import ListM from "@material-ui/core/List";
 
-function ListM(props) {
-  return <List {...props}>{props.children}</List>;
+function List(props) {
+  return <ListM {...props}>{props.children}</ListM>;
 }
 
-ListM.propTypes = {
+List.propTypes = {
   /**
    * The content of the component.
    */
@@ -47,4 +47,4 @@ ListM.propTypes = {
   subheader: PropTypes.node 
 };
 
-export { ListM as default };
+export { List as default };

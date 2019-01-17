@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import SnackBarContent from "@material-ui/core/SnackBarContent";
+import SnackbarContentM from "@material-ui/core/SnackbarContent";
 
-function SnackBarContentM(props) {
-  return <SnackBarContent {...props} />;
+function SnackbarContent(props) {
+  return <SnackbarContentM {...props} />;
 }
 
-SnackBarContentM.propTypes = {
+SnackbarContent.propTypes = {
 /**
    * The action to display.
    */
@@ -29,4 +29,4 @@ SnackBarContentM.propTypes = {
   message: PropTypes.node 
 };
 
-export { SnackBarContentM as default };
+export { SnackbarContent as default };

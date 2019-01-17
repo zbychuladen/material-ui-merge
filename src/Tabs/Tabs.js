@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Tabs from "@material-ui/core/Tabs";
+import TabsM from "@material-ui/core/Tabs";
 
-export default class TabsM extends React.Component {
+export default class Tabs extends React.Component {
   constructor(props) {
     super()
 
@@ -18,20 +18,16 @@ export default class TabsM extends React.Component {
     }
   }
 
-  componentDidUpdate(prevProps, prevState, snapshot) {
-    console.log(prevProps, prevState, snapshot);
-  }
-
   handleChange(event, value) {
       this.setState({ "value": value, "userAction": true })
   }
 
   render() {
-    return <Tabs {...this.props} value={this.state.value} onChange={(event, value) => this.handleChange(event, value)}>{this.props.children}</Tabs>;
+    return <TabsM {...this.props} value={this.state.value} onChange={(event, value) => this.handleChange(event, value)}>{this.props.children}</TabsM>;
   }
 }
 
-TabsM.propTypes = {
+Tabs.propTypes = {
   /**
    * Callback fired when the component mounts.
    * This is useful when you want to trigger an action programmatically.

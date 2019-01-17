@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Checkbox from "@material-ui/core/Checkbox";
+import CheckboxM from "@material-ui/core/Checkbox";
 
-function CheckboxM(props) {
-  return <Checkbox {...props} />;
+function Checkbox(props) {
+  return <CheckboxM {...props} />;
 }
 
-CheckboxM.propTypes = {
+Checkbox.propTypes = {
   /**
    * If `true`, the component is checked.
    */
@@ -86,4 +86,4 @@ CheckboxM.propTypes = {
   value: PropTypes.string
 };
 
-export { CheckboxM as default };
+export { Checkbox as default };

@@ -1,9 +1,6 @@
 import * as React from "react";
-import ExpansionPanelDetailsM from "../../ExpansionPanelDetails/ExpansionPanelDetails";
-import TypographyM from "../../Typography/Typography";
-
-const ExpansionPanelDetails = (props) => <ExpansionPanelDetailsM {...props}>{props.children}</ExpansionPanelDetailsM>;
-const Typography = (props) => <TypographyM {...props}>{props.children}</TypographyM>;
+import ExpansionPanelDetails from "../../ExpansionPanelDetails/ExpansionPanelDetails";
+import Typography from "../../Typography/Typography";
 
 export default (
     <ExpansionPanelDetails key="4">

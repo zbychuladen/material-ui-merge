@@ -1,16 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
-import CardContent from "@material-ui/core/CardContent";
+import CardContentM from "@material-ui/core/CardContent";
 
-function CardContentM(props) {
+function CardContent(props) {
   return (
-    <CardContent {...props}>
+    <CardContentM {...props}>
       {props.children}
-    </CardContent>
+    </CardContentM>
   );
 }
 
-CardContentM.propTypes = {
+CardContent.propTypes = {
   children: PropTypes.node,
   /**
    * Override or extend the styles applied to the component.
@@ -18,4 +18,4 @@ CardContentM.propTypes = {
   classes: PropTypes.object,
 };
 
-export { CardContentM as default };
+export { CardContent as default };

@@ -1,5 +1,5 @@
 import * as React from "react";
-import CardMediaM from "../CardMedia";
+import CardMedia from "../CardMedia";
 
 const style = {
   "height": "100px",
@@ -7,7 +7,7 @@ const style = {
 }
 
 export default (
-  <CardMediaM key="1"
+  <CardMedia key="1"
     component="img"
     src="https://www.platingsandpairings.com/wp-content/uploads/2016/01/Paella-1-Square.jpg"
     style={style}

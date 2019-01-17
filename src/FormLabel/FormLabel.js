@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import FormLabel from "@material-ui/core/FormLabel";
+import FormLabelM from "@material-ui/core/FormLabel";
 
-function FormLabelM(props) {
-  return <FormLabel {...props}>{props.children}</FormLabel>;
+function FormLabel(props) {
+  return <FormLabelM {...props}>{props.children}</FormLabelM>;
 }
 
-FormLabelM.propTypes = {
+FormLabel.propTypes = {
   /**
    * The content of the component.
    */
@@ -60,4 +60,4 @@ FormLabelM.propTypes = {
   required: PropTypes.bool
 };
 
-export { FormLabelM as default };
+export { FormLabel as default };

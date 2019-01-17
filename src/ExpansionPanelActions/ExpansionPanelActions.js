@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ExpansionPanelActions from "@material-ui/core/ExpansionPanelActions";
+import ExpansionPanelActionsM from "@material-ui/core/ExpansionPanelActions";
 
-function ExpansionPanelActionsM(props) {
-  return <ExpansionPanelActions {...props}>{props.children}</ExpansionPanelActions>;
+function ExpansionPanelActions(props) {
+  return <ExpansionPanelActionsM {...props}>{props.children}</ExpansionPanelActionsM>;
 }
 
-ExpansionPanelActionsM.propTypes = {
+ExpansionPanelActions.propTypes = {
  /**
    * The content of the component.
    */
@@ -24,4 +24,4 @@ ExpansionPanelActionsM.propTypes = {
   className: PropTypes.string
 };
 
-export { ExpansionPanelActionsM as default };
+export { ExpansionPanelActions as default };

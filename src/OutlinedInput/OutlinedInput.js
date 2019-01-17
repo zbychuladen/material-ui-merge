@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import OutlinedInput from "@material-ui/core/OutlinedInput";
+import OutlinedInputM from "@material-ui/core/OutlinedInput";
 
-function OutlinedInputM(props) {
-  return <OutlinedInput {...props}>{props.children}</OutlinedInput>;
+function OutlinedInput(props) {
+  return <OutlinedInputM {...props}>{props.children}</OutlinedInputM>;
 }
 
-OutlinedInputM.propTypes = {
+OutlinedInput.propTypes = {
   /**
    * This property helps users to fill forms faster, especially on mobile devices.
    * The name can be confusing, as it's more like an autofill.
@@ -153,4 +153,4 @@ OutlinedInputM.propTypes = {
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool, PropTypes.object, PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool, PropTypes.object]))])
 };
 
-export { OutlinedInputM as default };
+export { OutlinedInput as default };

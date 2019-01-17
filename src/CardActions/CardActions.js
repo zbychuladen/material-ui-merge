@@ -1,16 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
-import CardActions from "@material-ui/core/CardActions";
+import CardActionsM from "@material-ui/core/CardActions";
 
-function CardActionsM(props) {
+function CardActions(props) {
   return (
-    <CardActions {...props}>
+    <CardActionsM {...props}>
       {props.children}
-    </CardActions>
+    </CardActionsM>
   );
 }
 
-CardActionsM.propTypes = {
+CardActions.propTypes = {
   /**
    * The content of the component.
    */
@@ -25,4 +25,4 @@ CardActionsM.propTypes = {
   disableActionSpacing: PropTypes.bool
 };
 
-export { CardActionsM as default };
+export { CardActions as default };

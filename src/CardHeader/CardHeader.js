@@ -1,14 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
-import CardHeader from "@material-ui/core/CardHeader";
+import CardHeaderM from "@material-ui/core/CardHeader";
 
-function CardHeaderM(props) {
+function CardHeader(props) {
   return (
-    <CardHeader {...props} />
+    <CardHeaderM {...props} />
   );
 }
 
-CardHeaderM.propTypes = {
+CardHeader.propTypes = {
   /**
    * The action to display in the card header.
    */
@@ -55,4 +55,4 @@ CardHeaderM.propTypes = {
   titleTypographyProps: PropTypes.object
 };
 
-export { CardHeaderM as default };
+export { CardHeader as default };

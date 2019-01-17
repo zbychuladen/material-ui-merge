@@ -1,8 +1,8 @@
 import * as React from 'react';
-import ChipM from '../Chip';
+import Chip from '../Chip';
 
 export default (
-  <ChipM 
+  <Chip
     key="1"
     avatar={
       `<Avatar>

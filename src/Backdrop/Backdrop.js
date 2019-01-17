@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Backdrop from "@material-ui/core/Backdrop";
+import BackdropM from "@material-ui/core/Backdrop";
 
-function BackdropM(props) {
-  return <Backdrop {...props}>{props.children}</Backdrop>;
+function Backdrop(props) {
+  return <BackdropM {...props}>{props.children}</BackdropM>;
 }
 
-BackdropM.propTypes = {
+Backdrop.propTypes = {
   /**
    * Override or extend the styles applied to the component.
    */
@@ -36,4 +36,4 @@ BackdropM.propTypes = {
   ])
 };
 
-export { BackdropM as default };
+export { Backdrop as default };

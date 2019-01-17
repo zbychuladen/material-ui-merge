@@ -1,23 +1,15 @@
 import * as React from "react";
-import CardM from "../Card";
-import CardHeaderM from "../../CardHeader/CardHeader";
-import CardMediaM from "../../CardMedia/CardMedia";
-import CardContentM from "../../CardContent/CardContent";
-import CardActionsM from "../../CardActions/CardActions";
-import TypographyM from "../../Typography/Typography";
-import IconM from "../../Icon/Icon";
-import IconButtonM from "../../IconButton/IconButton";
-
-const CardHeader = (props) => <CardHeaderM {...props} />;
-const CardMedia = (props) => <CardMediaM {...props} />;
-const CardContent = (props) => <CardContentM {...props} />;
-const CardActions = (props) => <CardActionsM {...props}>{props.children}</CardActionsM>; 
-const Typography = (props) => <TypographyM {...props}>{props.children}</TypographyM>;
-const Icon = (props) => <IconM {...props}>{props.children}</IconM>;
-const IconButton = (props) => <IconButtonM {...props}>{props.children}</IconButtonM>;
+import Card from "../Card";
+import CardHeader from "../../CardHeader/CardHeader";
+import CardMedia from "../../CardMedia/CardMedia";
+import CardContent from "../../CardContent/CardContent";
+import CardActions from "../../CardActions/CardActions";
+import Typography from "../../Typography/Typography";
+import Icon from "../../Icon/Icon";
+import IconButton from "../../IconButton/IconButton";
 
 export default (
-  <CardM key="1">
+  <Card key="1">
     <CardHeader
       key="1.1"
       avatar={`<Avatar aria-label="Recipe">
@@ -48,5 +40,5 @@ export default (
         <Icon key="1.4.2.1">share</Icon>
       </IconButton>
     </CardActions>
-  </CardM>
+  </Card>
 );

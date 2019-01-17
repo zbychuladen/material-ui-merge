@@ -1,6 +1,6 @@
 import * as React from 'react';
-import FilledInputM from '../../FilledInput/FilledInput';
+import FilledInput from '../../FilledInput/FilledInput';
 
 export default (
-  <FilledInputM key="1" />
+  <FilledInput key="1" />
 );

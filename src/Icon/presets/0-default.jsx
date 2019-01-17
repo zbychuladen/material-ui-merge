@@ -1,8 +1,8 @@
 import * as React from 'react';
-import IconM from '../Icon';
+import Icon from '../Icon';
 
 export default (
-  <IconM key="1">
+  <Icon key="1">
     home
-  </IconM>
+  </Icon>
 );

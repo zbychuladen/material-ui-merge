@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import GridListTileBar from "@material-ui/core/GridListTileBar";
+import GridListTileBarM from "@material-ui/core/GridListTileBar";
 
-function GridListTileBarM(props) {
-  return <GridListTileBar {...props}>{props.children}</GridListTileBar>;
+function GridListTileBar(props) {
+  return <GridListTileBarM {...props}>{props.children}</GridListTileBarM>;
 }
 
-GridListTileBarM.propTypes = {
+GridListTileBar.propTypes = {
  /**
    * An IconButton element to be used as secondary action target
    * (primary action target is the tile itself).
@@ -45,4 +45,4 @@ GridListTileBarM.propTypes = {
   titlePosition: PropTypes.oneOf(['top', 'bottom'])  
 };
 
-export { GridListTileBarM as default };
+export { GridListTileBar as default };

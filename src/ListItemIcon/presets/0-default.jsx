@@ -1,9 +1,6 @@
 import * as React from 'react';
-import ListItemIconM from '../ListItemIcon';
-import IconM from '../../Icon/Icon';
-
-const ListItemIcon = (props) => <ListItemIconM {...props}>{props.children}</ListItemIconM>;
-const Icon = (props) => <IconM {...props}>{props.children}</IconM>;
+import ListItemIcon from '../ListItemIcon';
+import Icon from '../../Icon/Icon';
 
 export default (
   <ListItemIcon key="1">

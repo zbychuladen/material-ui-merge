@@ -1,11 +1,8 @@
 import * as React from "react";
-import FormControlLabelM from "../../FormControlLabel/FormControlLabel";
-import CheckboxM from "../../Checkbox/Checkbox"
-
-const Checkbox = (props) => <CheckboxM {...props} />;
+import FormControlLabel from "../../FormControlLabel/FormControlLabel";
 
 export default (
-  <FormControlLabelM
+  <FormControlLabel
     key="1"
     control={
       `<Checkbox

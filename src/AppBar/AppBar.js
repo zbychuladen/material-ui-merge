@@ -1,16 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
-import AppBar from "@material-ui/core/AppBar";
+import AppBarM from "@material-ui/core/AppBar";
 
-function AppBarM(props) {
+function AppBar(props) {
   return (
-    <AppBar {...props}>
+    <AppBarM {...props}>
       {props.children}
-    </AppBar>
+    </AppBarM>
   );
 }
 
-AppBarM.propTypes = {
+AppBar.propTypes = {
   /**
    * The content of the component.
    */
@@ -51,4 +51,4 @@ AppBarM.propTypes = {
   ])
 };
 
-export { AppBarM as default };
+export { AppBar as default };

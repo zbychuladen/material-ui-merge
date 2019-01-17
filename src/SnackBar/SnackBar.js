@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import SnackBar from "@material-ui/core/SnackBar";
+import SnackbarM from "@material-ui/core/Snackbar";
 
-function SnackBarM(props) {
-  return <SnackBar {...props} />;
+function Snackbar(props) {
+  return <SnackbarM {...props} />;
 }
 
-SnackBarM.propTypes = {
+Snackbar.propTypes = {
  /**
    * The action to display.
    */
@@ -157,4 +157,4 @@ SnackBarM.propTypes = {
   TransitionProps: PropTypes.object
 };
 
-export { SnackBarM as default };
+export { Snackbar as default };

@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import GridList from "@material-ui/core/GridList";
+import GridListM from "@material-ui/core/GridList";
 
-function GridListM(props) {
-  return <GridList {...props}>{props.children}</GridList>;
+function GridList(props) {
+  return <GridListM {...props}>{props.children}</GridListM>;
 }
 
-GridListM.propTypes = {
+GridList.propTypes = {
   /**
    * Number of px for one cell height.
    * You can set `'auto'` if you want to let the children determine the height.
@@ -51,4 +51,4 @@ GridListM.propTypes = {
   style: PropTypes.object 
 };
 
-export { GridListM as default };
+export { GridList as default };

@@ -1,13 +1,8 @@
 import * as React from 'react';
-import ListItemM from '../ListItem';
-import AvatarM from '../../Avatar/Avatar';
-import ListItemTextM from '../../ListItemText/ListItemText';
-import IconM from '../../Icon/Icon';
-
-const ListItem = (props) => <ListItemM {...props}>{props.children}</ListItemM>;
-const Avatar = (props) => <AvatarM {...props}>{props.children}</AvatarM>;
-const Icon = (props) => <IconM {...props}>{props.children}</IconM>;
-const ListItemText = (props) => <ListItemTextM {...props}>{props.children}</ListItemTextM>
+import ListItem from '../ListItem';
+import Avatar from '../../Avatar/Avatar';
+import ListItemText from '../../ListItemText/ListItemText';
+import Icon from '../../Icon/Icon';
 
 export default (
   <ListItem label="Active" key="1">

@@ -1,10 +1,6 @@
 import * as React from 'react';
-import MenuM from '../Menu';
-import MenuItemM from "../../MenuItem/MenuItem";
-
-const Menu = (props) => <MenuM {...props}>{props.children}</MenuM>;
-const MenuItem = (props) => <MenuItemM {...props}>{props.children}</MenuItemM>;
-
+import Menu from '../Menu';
+import MenuItem from "../../MenuItem/MenuItem";
 
 export default (
   <Menu key="1">

@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import FormControl from "@material-ui/core/FormControl";
+import FormControlM from "@material-ui/core/FormControl";
 
-function FormControlM(props) {
-  return <FormControl {...props}>{props.children}</FormControl>;
+function FormControl(props) {
+  return <FormControlM {...props}>{props.children}</FormControlM>;
 }
 
-FormControlM.propTypes = {
+FormControl.propTypes = {
   /**
    * The contents of the form control.
    */
@@ -60,4 +60,4 @@ FormControlM.propTypes = {
   variant: PropTypes.oneOf(["standard", "outlined", "filled"])
 };
 
-export { FormControlM as default };
+export { FormControl as default };

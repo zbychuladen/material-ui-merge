@@ -1,6 +1,6 @@
 import * as React from 'react';
-import SnackBarM from '../SnackBar';
+import Snackbar from '../Snackbar';
 
 export default (
-  <SnackBarM open message="Hello Merge!"/>
+  <Snackbar open message="Hello Merge!"/>
 );

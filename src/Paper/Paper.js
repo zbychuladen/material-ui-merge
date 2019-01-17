@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Paper from "@material-ui/core/Paper";
+import PaperM from "@material-ui/core/Paper";
 
-function PaperM(props) {
-  return <Paper {...props}>{props.children}</Paper>;
+function Paper(props) {
+  return <PaperM {...props}>{props.children}</PaperM>;
 }
 
-PaperM.propTypes = {
+Paper.propTypes = {
   /**
    * The content of the component.
    */
@@ -41,4 +41,4 @@ PaperM.propTypes = {
   square: PropTypes.bool
 };
 
-export { PaperM as default };
+export { Paper as default };

@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Menu from "@material-ui/core/Menu";
+import MenuM from "@material-ui/core/Menu";
 
-function MenuM(props) {
-  return <Menu {...props}>{props.children}</Menu>;
+function Menu(props) {
+  return <MenuM {...props}>{props.children}</MenuM>;
 }
 
-MenuM.propTypes = {
+Menu.propTypes = {
   /**
    * The DOM element used to set the position of the menu.
    */
@@ -100,4 +100,4 @@ MenuM.propTypes = {
   }), PropTypes.oneOf(['auto'])]) 
 }
 
-export { MenuM as default };
+export { Menu as default };

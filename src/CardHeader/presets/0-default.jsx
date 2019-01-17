@@ -1,8 +1,8 @@
 import * as React from "react";
-import CardHeaderM from "../CardHeader";
+import CardHeader from "../CardHeader";
 
 export default (
-  <CardHeaderM
+  <CardHeader
     key="1"
     avatar={`<Avatar aria-label="Recipe">
       R

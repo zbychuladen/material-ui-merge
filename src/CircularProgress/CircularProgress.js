@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import CircularProgress from "@material-ui/core/CircularProgress";
+import CircularProgressM from "@material-ui/core/CircularProgress";
 
-function CircularProgressM(props) {
-  return <CircularProgress {...props} />;
+function CircularProgress(props) {
+  return <CircularProgressM {...props} />;
 }
 
-CircularProgressM.propTypes = {
+CircularProgress.propTypes = {
 /**
    * Override or extend the styles applied to the component.
    * See [CSS API](#css-api) below for more details.
@@ -57,4 +57,4 @@ CircularProgressM.propTypes = {
   variant: PropTypes.oneOf(['determinate', 'indeterminate', 'static']) 
 };
 
-export { CircularProgressM as default };
+export { CircularProgress as default };

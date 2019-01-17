@@ -1,7 +1,5 @@
 import * as React from "react";
-import GridListTileBarM from "../../GridListTileBar/GridListTileBar";
-
-const GridListTileBar = props => <GridListTileBarM {...props} />;
+import GridListTileBar from "../../GridListTileBar/GridListTileBar";
 
 export default (
   <GridListTileBar

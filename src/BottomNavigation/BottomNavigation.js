@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import BottomNavigation from "@material-ui/core/BottomNavigation";
+import BottomNavigationM from "@material-ui/core/BottomNavigation";
 
-function BottomNavigationM(props) {
-  return <BottomNavigation {...props}>{props.children}</BottomNavigation>;
+function BottomNavigation(props) {
+  return <BottomNavigationM {...props}>{props.children}</BottomNavigationM>;
 }
 
-BottomNavigationM.propTypes = {
+BottomNavigation.propTypes = {
  /**
    * The content of the component.
    */
@@ -30,4 +30,4 @@ BottomNavigationM.propTypes = {
   value: PropTypes.string
 };
 
-export { BottomNavigationM as default };
+export { BottomNavigation as default };

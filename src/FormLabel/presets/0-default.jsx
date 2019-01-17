@@ -1,8 +1,8 @@
 import * as React from "react";
-import FormLabelM from "../../FormLabel/FormLabel";
+import FormLabel from "../../FormLabel/FormLabel";
 
 export default (
-  <FormLabelM>
+  <FormLabel>
     Merge
-  </FormLabelM>
+  </FormLabel>
 );

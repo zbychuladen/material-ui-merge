@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import FormHelperText from "@material-ui/core/FormHelperText";
+import FormHelperTextM from "@material-ui/core/FormHelperText";
 
-function FormHelperTextM(props) {
-  return <FormHelperText {...props}>{props.children}</FormHelperText>;
+function FormHelperText(props) {
+  return <FormHelperTextM {...props}>{props.children}</FormHelperTextM>;
 }
 
-FormHelperTextM.propTypes = {
+FormHelperText.propTypes = {
   /**
    * The content of the component.
    */
@@ -71,4 +71,4 @@ FormHelperTextM.propTypes = {
   variant: PropTypes.oneOf(["standard", "outlined", "filled"])
 };
 
-export { FormHelperTextM as default };
+export { FormHelperText as default };

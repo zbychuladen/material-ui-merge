@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ListItem from "@material-ui/core/ListItem";
+import ListItemM from "@material-ui/core/ListItem";
 
-function ListItemM(props) {
-  return <ListItem {...props}>{props.children}</ListItem>;
+function ListItem(props) {
+  return <ListItemM {...props}>{props.children}</ListItemM>;
 }
 
-ListItemM.propTypes = {
+ListItem.propTypes = {
   /**
    * Defines the `align-items` style property.
    */
@@ -82,4 +82,4 @@ ListItemM.propTypes = {
   selected: PropTypes.bool 
 };
 
-export { ListItemM as default };
+export { ListItem as default };

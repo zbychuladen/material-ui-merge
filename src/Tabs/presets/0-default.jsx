@@ -1,11 +1,6 @@
 import * as React from "react";
-import TabsM from "../Tabs";
-import TabM from "../../Tab/Tab";
-
-
-const Tab = props => <TabM {...props} />;
-const Tabs = props => <TabsM {...props}>{props.children}</TabsM>;
-
+import Tabs from "../Tabs";
+import Tab from "../../Tab/Tab";
 
 export default (
   <Tabs

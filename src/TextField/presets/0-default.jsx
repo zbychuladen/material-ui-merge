@@ -1,6 +1,6 @@
 import * as React from 'react';
-import TextFieldM from '../TextField';
+import TextField from '../TextField';
 
 export default (
-  <TextFieldM key="1" fullWidth />
+  <TextField key="1" fullWidth />
 );

@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ListItemAvatar from "@material-ui/core/ListItemAvatar";
+import ListItemAvatarM from "@material-ui/core/ListItemAvatar";
 
-function ListItemAvatarM(props) {
-  return <ListItemAvatar {...props} />;
+function ListItemAvatar(props) {
+  return <ListItemAvatarM {...props} />;
 }
 
-ListItemAvatarM.propTypes = {
+ListItemAvatar.propTypes = {
   /**
    * The content of the component – normally `Avatar`.
    */
@@ -24,4 +24,4 @@ ListItemAvatarM.propTypes = {
   className: PropTypes.string
 };
 
-export { ListItemAvatarM as default };
+export { ListItemAvatar as default };

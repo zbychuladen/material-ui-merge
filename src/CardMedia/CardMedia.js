@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import CardMedia from "@material-ui/core/CardMedia";
+import CardMediaM from "@material-ui/core/CardMedia";
 
-function CardMediaM(props) {
-  return <CardMedia {...props} />;
+function CardMedia(props) {
+  return <CardMediaM {...props} />;
 }
 
-CardMediaM.propTypes = {
+CardMedia.propTypes = {
   /**
    * Override or extend the styles applied to the component.
    */
@@ -27,4 +27,4 @@ CardMediaM.propTypes = {
   style: PropTypes.object
 };
 
-export { CardMediaM as default };
+export { CardMedia as default };

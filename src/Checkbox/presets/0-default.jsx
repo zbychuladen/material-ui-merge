@@ -1,6 +1,6 @@
 import * as React from 'react';
-import CheckboxM from '../Checkbox';
+import Checkbox from '../Checkbox';
 
 export default (
-  <CheckboxM key="1" />
+  <Checkbox key="1" />
 );

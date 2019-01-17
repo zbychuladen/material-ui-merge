@@ -1,8 +1,8 @@
 import * as React from 'react';
-import TypographyM from '../Typography';
+import Typography from '../Typography';
 
 export default (
-  <TypographyM key="1" variant="body1">
+  <Typography key="1" variant="body1">
     Merge
-  </TypographyM>
+  </Typography>
 );

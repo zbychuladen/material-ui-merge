@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Badge from "@material-ui/core/Badge";
+import BadgeM from "@material-ui/core/Badge";
 
-function BadgeM(props) {
-  return <Badge {...props}>{props.children}</Badge>;
+function Badge(props) {
+  return <BadgeM {...props}>{props.children}</BadgeM>;
 }
 
-BadgeM.propTypes = {
+Badge.propTypes = {
   /**
    * The content rendered within the badge.
    */
@@ -33,4 +33,4 @@ BadgeM.propTypes = {
   invisible: PropTypes.bool
 };
 
-export { BadgeM as default };
+export { Badge as default };

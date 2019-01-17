@@ -1,10 +1,6 @@
 import * as React from 'react';
-import ListItemAvatarM from '../ListItemAvatar';
-import AvatarM from '../../Avatar/Avatar';
-
-const Avatar = (props) => <AvatarM {...props}>{props.children}</AvatarM>
-
-const ListItemAvatar = (props) => <ListItemAvatarM {...props} />;
+import ListItemAvatar from '../ListItemAvatar';
+import Avatar from '../../Avatar/Avatar';
 
 export default (
   <ListItemAvatar label="Active" key="1">

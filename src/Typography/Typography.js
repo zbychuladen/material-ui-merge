@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Typography from "@material-ui/core/Typography";
+import TypographyM from "@material-ui/core/Typography";
 
-function TypographyM(props) {
-  return <Typography {...props}>{props.children}</Typography>;
+function Typography(props) {
+  return <TypographyM {...props}>{props.children}</TypographyM>;
 }
 
-TypographyM.propTypes = {
+Typography.propTypes = {
   /**
    * Set the text-align on the component.
    */
@@ -100,4 +100,4 @@ TypographyM.propTypes = {
   ])
 };
 
-export { TypographyM as default };
+export { Typography as default };

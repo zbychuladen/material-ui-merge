@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import GridListTile from "@material-ui/core/GridListTile";
+import GridListTileM from "@material-ui/core/GridListTile";
 
-function GridListTileM(props) {
-  return <GridListTile {...props}>{props.children}</GridListTile>;
+function GridListTile(props) {
+  return <GridListTileM {...props}>{props.children}</GridListTileM>;
 }
 
-GridListTileM.propTypes = {
+GridListTile.propTypes = {
   /**
    * Theoretically you can pass any node as children, but the main use case is to pass an img,
    * in which case GridListTile takes care of making the image "cover" available space
@@ -42,4 +42,4 @@ GridListTileM.propTypes = {
   rows: PropTypes.number 
 };
 
-export { GridListTileM as default };
+export { GridListTile as default };

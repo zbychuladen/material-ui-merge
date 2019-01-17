@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import ListItemText from "@material-ui/core/ListItemText";
+import ListItemTextM from "@material-ui/core/ListItemText";
 
-function ListItemTextM(props) {
-  return <ListItemText {...props} />;
+function ListItemText(props) {
+  return <ListItemTextM {...props} />;
 }
 
-ListItemTextM.propTypes = {
+ListItemText.propTypes = {
   /**
    * Alias for the `primary` property.
    */
@@ -65,4 +65,4 @@ ListItemTextM.propTypes = {
   theme: PropTypes.object
 };
 
-export { ListItemTextM as default };
+export { ListItemText as default };

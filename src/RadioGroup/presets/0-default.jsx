@@ -1,14 +1,8 @@
 import * as React from "react";
-import RadioGroupM from "../RadioGroup";
-import FormControlM from "../../FormControl/FormControl";
-import FormControlLabelM from "../../FormControlLabel/FormControlLabel";
-import FormLabelM from "../../FormLabel/FormLabel";
-
-const RadioGroup = (props) => <RadioGroupM {...props}>{props.children}</RadioGroupM>;
-const FormControl = (props) => <FormControlM {...props}>{props.children}</FormControlM>;
-const FormControlLabel = (props) => <FormControlLabelM {...props}>{props.children}</FormControlLabelM>;
-const FormLabel = (props) => <FormLabelM {...props}>{props.children}</FormLabelM>;
-
+import RadioGroup from "../RadioGroup";
+import FormControl from "../../FormControl/FormControl";
+import FormControlLabel from "../../FormControlLabel/FormControlLabel";
+import FormLabel from "../../FormLabel/FormLabel";
 
 export default (
   <FormControl component="fieldset" key="1">

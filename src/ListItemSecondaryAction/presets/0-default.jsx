@@ -1,9 +1,6 @@
 import * as React from 'react';
-import ListItemSecondaryActionM from '../ListItemSecondaryAction';
-import CheckboxM from '../../Checkbox/Checkbox';
-
-const ListItemSecondaryAction = (props) => <ListItemSecondaryActionM {...props}>{props.children}</ListItemSecondaryActionM>;
-const Checkbox = (props) => <CheckboxM {...props} />;
+import ListItemSecondaryAction from '../ListItemSecondaryAction';
+import Checkbox from '../../Checkbox/Checkbox';
 
 export default (
   <ListItemSecondaryAction key="1">

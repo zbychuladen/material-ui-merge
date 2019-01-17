@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Radio from "@material-ui/core/Radio";
+import RadioM from "@material-ui/core/Radio";
 
-function RadioM(props) {
-  return <Radio {...props} />;
+function Radio(props) {
+  return <RadioM {...props} />;
 }
 
-RadioM.propTypes = {
+Radio.propTypes = {
   /**
    * If `true`, the component is checked.
    */
@@ -88,4 +88,4 @@ RadioM.propTypes = {
   ])
 };
 
-export { RadioM as default };
+export { Radio as default };
