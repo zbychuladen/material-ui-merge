@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import PaperM from "@material-ui/core/Paper";
 
 function Paper(props) {
-  return <PaperM {...props}>{props.children}</PaperM>;
+  return <PaperM {...props} style={props.style}>{props.children}</PaperM>;
 }
 
 Paper.propTypes = {
@@ -38,7 +38,12 @@ Paper.propTypes = {
   /**
    * If `true`, rounded corners are disabled.
    */
-  square: PropTypes.bool
+  square: PropTypes.bool,
+
+  /**
+   * Custom Style Object
+   */
+  style: PropTypes.object
 };
 
 export { Paper as default };

@@ -22,7 +22,8 @@ module.exports = {
           "src/BottomNavigation/BottomNavigation.js",
           "src/BottomNavigationAction/BottomNavigationAction.js",
           "src/Tab/Tab.js",
-          "src/Tabs/Tabs.js"
+          "src/Tabs/Tabs.js",
+          "src/Drawer/Drawer.js"
         ]
       },
       {
@@ -100,8 +101,8 @@ module.exports = {
         ]
       },
       {
-        name: "HTML Elements Wrappers",
-        include: ["src/Image/Image.js"]
+        name: "HTML Wrappers and Spacing",
+        include: ["src/Image/Image.js", "src/CssBaseline/CssBaseline.js"]
       }
     ]
   },
@@ -113,6 +114,6 @@ module.exports = {
  * 'src/Menu/Menu.js',
  * 'src/ExpansionPanel/ExpansionPanel.js',
  * 'src/ExpansionPanelActions/ExpansionPanelActions.js',
- *  'src/ExpansionPanelDetails/ExpansionPanelDetails.js',
- *  'src/ExpansionPanelSummary/ExpansionPanelSummary.js',
+ * 'src/ExpansionPanelDetails/ExpansionPanelDetails.js',
+ * 'src/ExpansionPanelSummary/ExpansionPanelSummary.js'
  */

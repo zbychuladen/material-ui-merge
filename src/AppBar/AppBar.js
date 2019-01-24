@@ -4,7 +4,7 @@ import AppBarM from "@material-ui/core/AppBar";
 
 function AppBar(props) {
   return (
-    <AppBarM {...props}>
+    <AppBarM {...props} style={props.style}>
       {props.children}
     </AppBarM>
   );
@@ -48,7 +48,11 @@ AppBar.propTypes = {
     "sticky",
     "static",
     "relative"
-  ])
+  ]),
+  /**
+   * custom style object
+   */
+  style: PropTypes.object
 };
 
 export { AppBar as default };

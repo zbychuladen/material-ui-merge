@@ -4,7 +4,7 @@ import ExpansionPanelSummaryM from "@material-ui/core/ExpansionPanelSummary";
 
 function ExpansionPanelSummary(props) {
   return (
-    <ExpansionPanelSummaryM {...props}>{props.children}</ExpansionPanelSummaryM>
+    <ExpansionPanelSummaryM {...props} style={{fontSize: "20px", fontWeight: "regular"}}>{props.children}</ExpansionPanelSummaryM>
   );
 }
 

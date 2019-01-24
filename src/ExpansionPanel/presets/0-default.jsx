@@ -6,7 +6,7 @@ import Typography from "../../Typography/Typography";
 import Paper from "../../Paper/Paper";
 
 export default (
-  <Paper key="paper0">
+  <div key="paper0" style={{"width": "100%"}}>
     <ExpansionPanel key="1" defaultExpanded>
       <ExpansionPanelSummary key="2">
         <Typography key="3">Expansion Panel 1</Typography>
@@ -29,5 +29,5 @@ export default (
         </Typography>
       </ExpansionPanelDetails>
     </ExpansionPanel>
-  </Paper>
+  </div>
 );
