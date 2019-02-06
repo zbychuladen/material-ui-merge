@@ -3,9 +3,9 @@ import Menu from '../Menu';
 import MenuItem from "../../MenuItem/MenuItem";
 
 export default (
-  <Menu key="1">
-    <MenuItem key="2">Merge 1</MenuItem>
-    <MenuItem key="3">Merge 2</MenuItem>
-    <MenuItem key="4">Merge 3</MenuItem>
+  <Menu uxpId="1">
+    <MenuItem uxpId="2">Merge 1</MenuItem>
+    <MenuItem uxpId="3">Merge 2</MenuItem>
+    <MenuItem uxpId="4">Merge 3</MenuItem>
   </Menu>
 );

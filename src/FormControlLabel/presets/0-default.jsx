@@ -3,7 +3,7 @@ import FormControlLabel from "../../FormControlLabel/FormControlLabel";
 
 export default (
   <FormControlLabel
-    key="1"
+    uxpId="1"
     control={
       `<Checkbox
         value="gilad"

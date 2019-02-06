@@ -3,7 +3,7 @@ import ListItemSecondaryAction from '../ListItemSecondaryAction';
 import Checkbox from '../../Checkbox/Checkbox';
 
 export default (
-  <ListItemSecondaryAction key="1">
-      <Checkbox key="1.1" />  
+  <ListItemSecondaryAction uxpId="1">
+      <Checkbox uxpId="1.1" />  
   </ListItemSecondaryAction>
 );

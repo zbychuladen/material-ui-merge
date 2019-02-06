@@ -2,7 +2,7 @@ import * as React from 'react';
 import Icon from '../Icon';
 
 export default (
-  <Icon key="1">
+  <Icon uxpId="1">
     home
   </Icon>
 );

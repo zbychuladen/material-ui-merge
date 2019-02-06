@@ -3,7 +3,7 @@ import CircularProgress from '../CircularProgress';
 
 export default (
   <CircularProgress 
-    key="1"
+    uxpId="1"
     size={68}
     />
 );

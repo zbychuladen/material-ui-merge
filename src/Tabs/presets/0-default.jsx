@@ -6,11 +6,11 @@ export default (
   <Tabs
     indicatorColor="primary"
     textColor="primary"
-    key="1"
+    uxpId="1"
     defaultValue={1}
   >
-    <Tab label="Active" key="2" fullWidth />
-    <Tab label="Disabled" key="3" fullWidth />
-    <Tab label="Active" key="4" fullWidth />
+    <Tab label="Active" uxpId="2" fullWidth />
+    <Tab label="Disabled" uxpId="3" fullWidth />
+    <Tab label="Active" uxpId="4" fullWidth />
   </Tabs>
 );

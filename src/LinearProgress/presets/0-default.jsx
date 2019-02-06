@@ -3,6 +3,6 @@ import LinearProgress from '../LinearProgress';
 
 export default (
   <LinearProgress 
-    key="1"
+    uxpId="1"
     />
 );

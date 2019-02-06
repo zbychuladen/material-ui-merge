@@ -3,9 +3,9 @@ import Select from '../Select';
 import MenuItem from '../../MenuItem/MenuItem';
 
 export default (
-  <Select key="1">
-      <MenuItem value={10} key="2">Ten</MenuItem>
-      <MenuItem value={20} key="3">Twenty</MenuItem>
-      <MenuItem value={30} key="4">Thirty</MenuItem>
+  <Select uxpId="1">
+      <MenuItem value={10} uxpId="2">Ten</MenuItem>
+      <MenuItem value={20} uxpId="3">Twenty</MenuItem>
+      <MenuItem value={30} uxpId="4">Thirty</MenuItem>
   </Select>
 );

@@ -3,7 +3,7 @@ import ListItemIcon from '../ListItemIcon';
 import Icon from '../../Icon/Icon';
 
 export default (
-  <ListItemIcon key="1">
-      <Icon key="1.1">inbox</Icon>  
+  <ListItemIcon uxpId="1">
+      <Icon uxpId="1.1">inbox</Icon>  
   </ListItemIcon>
 );

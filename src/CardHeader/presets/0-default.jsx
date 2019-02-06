@@ -3,7 +3,7 @@ import CardHeader from "../CardHeader";
 
 export default (
   <CardHeader
-    key="1"
+    uxpId="1"
     avatar={`<Avatar aria-label="Recipe">
       R
     </Avatar>`}

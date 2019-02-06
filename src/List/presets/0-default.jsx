@@ -8,23 +8,23 @@ import Switch from "../../Switch/Switch";
 import Icon from "../../Icon/Icon";
 
 export default (
-  <List subheader={`<ListSubheader>Settings</ListSubheader>`} key="1">
-    <ListItem key="1.1">
-      <ListItemIcon key="1.1.1">
-        <Icon key="1.1.1.1">wifi</Icon>
+  <List subheader={`<ListSubheader>Settings</ListSubheader>`} uxpId="1">
+    <ListItem uxpId="1.1">
+      <ListItemIcon uxpId="1.1.1">
+        <Icon uxpId="1.1.1.1">wifi</Icon>
       </ListItemIcon>
-      <ListItemText key="1.1.2" primary="Wi-Fi" />
-      <ListItemSecondaryAction key="1.1.3">
-        <Switch key="1.1.3.1" />
+      <ListItemText uxpId="1.1.2" primary="Wi-Fi" />
+      <ListItemSecondaryAction uxpId="1.1.3">
+        <Switch uxpId="1.1.3.1" />
       </ListItemSecondaryAction>
     </ListItem>
-    <ListItem key="1.2">
-      <ListItemIcon key="1.2.1">
-        <Icon key="1.2.1.1">bluetooth</Icon>
+    <ListItem uxpId="1.2">
+      <ListItemIcon uxpId="1.2.1">
+        <Icon uxpId="1.2.1.1">bluetooth</Icon>
       </ListItemIcon>
-      <ListItemText key="1.2.2" primary="Bluetooth" />
-      <ListItemSecondaryAction key="1.2.3">
-        <Switch key="1.2.3.1" />
+      <ListItemText uxpId="1.2.2" primary="Bluetooth" />
+      <ListItemSecondaryAction uxpId="1.2.3">
+        <Switch uxpId="1.2.3.1" />
       </ListItemSecondaryAction>
     </ListItem>
   </List>

@@ -3,7 +3,7 @@ import Chip from '../Chip';
 
 export default (
   <Chip
-    key="1"
+    uxpId="1"
     avatar={
       `<Avatar>
         <Icon>face</Icon>

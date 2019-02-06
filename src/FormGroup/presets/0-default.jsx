@@ -5,34 +5,34 @@ import FormControl from "../../FormControl/FormControl";
 import FormLabel from "../../FormLabel/FormLabel";
 
 export default (
-  <FormControl component="fieldset" key="1">
-    <FormLabel component="legend" key="2">Assign responsibility</FormLabel>
-    <FormGroup key="3">
+  <FormControl component="fieldset" uxpId="1">
+    <FormLabel component="legend" uxpId="2">Assign responsibility</FormLabel>
+    <FormGroup uxpId="3">
       <FormControlLabel
-        key="4"
+        uxpId="4"
         control={
           `<Checkbox
-            key="5"
+            uxpId="5"
             value="gilad"
           />`
         }
         label="Gilad Gray"
       />
       <FormControlLabel
-        key="6"
+        uxpId="6"
         control={
           `<Checkbox
-            key="7"
+            uxpId="7"
             value="jason"
           />`
         }
         label="Jason Killian"
       />
       <FormControlLabel
-        key="8"
+        uxpId="8"
         control={
           `<Checkbox
-            key="9"
+            uxpId="9"
             value="antoine"
           />`
         }

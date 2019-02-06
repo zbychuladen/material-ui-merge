@@ -1,8 +1,6 @@
 import * as React from 'react';
-import ListItemTextM from '../ListItemText';
-
-const ListItemText = (props) => <ListItemTextM {...props}>{props.children}</ListItemTextM>;
+import ListItemText from '../ListItemText';
 
 export default (
-  <ListItemText key="1" primary="Brunch this weekend?" />
+  <ListItemText uxpId="1" primary="Brunch this weekend?" />
 );
