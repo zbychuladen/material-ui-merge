@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "uxpin-merge --webpack-config ./webpack.config.js --wrapper ./src/Wrapper/UXPinWrapper.js --uxpin-domain merge.uxpin.cloud"
+    "start": "uxpin-merge --webpack-config ./webpack.config.js --wrapper ./src/Wrapper/UXPinWrapper.js --uxpin-domain merge.uxpin.cloud",
+    "uxpin:push": "uxpin-merge push --webpack-config ./webpack.config.js --wrapper ./src/Wrapper/UXPinWrapper.js --uxpin-domain designlibrariesmerge.docker.uxpin.com --token 51cff6d980456a719214ad97e58c98be9f4a8b7a"
   },
   "author": "",
   "license": "ISC",
