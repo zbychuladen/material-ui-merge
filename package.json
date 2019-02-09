@@ -5,14 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "uxpin-merge --webpack-config ./webpack.config.js --wrapper ./src/Wrapper/UXPinWrapper.js --uxpin-domain merge.uxpin.cloud",
-    "uxpin:push": "uxpin-merge push --webpack-config ./webpack.config.js --wrapper ./src/Wrapper/UXPinWrapper.js --uxpin-domain designlibrariesmerge.docker.uxpin.com --token 51cff6d980456a719214ad97e58c98be9f4a8b7a"
+    "start": "uxpin-merge --webpack-config ./webpack.config.js --wrapper ./src/Wrapper/UXPinWrapper.js --uxpin-domain merge.uxpin.cloud"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "@material-ui/core": "^3.8.3",

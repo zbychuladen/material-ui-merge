@@ -23,6 +23,8 @@ module.exports = {
           "src/BottomNavigationAction/BottomNavigationAction.js",
           "src/Tab/Tab.js",
           "src/Tabs/Tabs.js",
+          "src/TabsContainer/TabsContainer.js",
+          "src/TabsContainer/TabContent/TabContent.js",
           "src/Drawer/Drawer.js"
         ]
       },
