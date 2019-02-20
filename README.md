@@ -1,7 +1,7 @@
 # Material UI + UXPin Merge
 Integration of [Material UI](https://material-ui.com/) with UXPin Merge Technology.
 
-![alt text](https://github.com/uxpin-merge/rmwc-merge/blob/master/img/header.png "RMWC in UXPin")
+![alt text](https://github.com/uxpin-merge/material-ui-merge/blob/master/img/header.png "RMWC in UXPin")
 
 ## About Material UI
 
@@ -85,6 +85,8 @@ If you wish to reuse it follow these steps:
 4. Go into your [UXPin](http://uxpin.com) account, enter UXPin editor (in any project).
 5. While inside of UXPin editor open Design Systems Libraries panel and create a new library. Copy the library token (keep it secure it provides access to your library!)
 
+![alt text](https://github.com/uxpin-merge/material-ui-merge/blob/master/img/merge_ci.gif "UXPin Design System Library")
+
 If you're not seeing the screen above – contact your account manager. You're not in Merge Beta group yet.
 6. Go into settings of your project in Circle CI. Enter section `Environment Variables` and click on `Add new variable`.
 7. Name the new variable `UXPIN_AUTH_TOKEN` and pass your token copied from the UXPin library (#5) as its value.
@@ -99,6 +101,6 @@ If you want to experiment with components – start a new branch and use Merge d
 
 ## Examples
 
-![alt text](https://github.com/uxpin-merge/rmwc-merge/blob/master/img/rmwc.gif "RMWC in UXPin")
+![alt text](https://github.com/uxpin-merge/material-ui-merge/blob/master/img/material_ui.gif "Material UI in UXPin")
 
 
