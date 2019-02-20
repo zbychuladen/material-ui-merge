@@ -88,6 +88,7 @@ If you wish to reuse it follow these steps:
 ![alt text](https://github.com/uxpin-merge/material-ui-merge/blob/master/img/merge_ci.gif "UXPin Design System Library")
 
 If you're not seeing the screen above – contact your account manager. You're not in Merge Beta group yet.
+
 6. Go into settings of your project in Circle CI. Enter section `Environment Variables` and click on `Add new variable`.
 7. Name the new variable `UXPIN_AUTH_TOKEN` and pass your token copied from the UXPin library (#5) as its value.
 
