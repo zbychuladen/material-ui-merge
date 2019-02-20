@@ -69,3 +69,7 @@ typings/
 # package-lock.json
 
 package-lock.json
+
+# vs-code 
+
+.vscode
