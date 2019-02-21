@@ -1,8 +1,13 @@
-import * as React from 'react';
-import ButtonM from '../Button';
+import * as React from "react";
+import Button from "../Button";
 
 export default (
-  <ButtonM uxpId="1" variant="contained" color="primary" fullWidth>
+  <Button 
+    uxpId="1" 
+    size="small" 
+    variant="contained" 
+    color="primary" 
+    fullWidth>
     Click me
-  </ButtonM>
+  </Button>
 );
