@@ -3,7 +3,7 @@ import Button from "../Button";
 
 export default (
   <Button 
-    uxpId="1" 
+    uxpId="action1" 
     size="small" 
     variant="contained" 
     color="primary" 
