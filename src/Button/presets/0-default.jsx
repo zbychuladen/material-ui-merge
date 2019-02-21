@@ -4,10 +4,10 @@ import Button from "../Button";
 export default (
   <Button 
     uxpId="action1" 
-    size="medium" 
+    size="small" 
     variant="contained" 
     color="primary" 
     fullWidth>
-    Click me
+    Sign Up
   </Button>
 );
