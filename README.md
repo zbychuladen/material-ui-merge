@@ -67,12 +67,12 @@ If you wish to push RMWC components to your UXPin account or set-up a continues 
 
 ## Theming
 
-To change theme, modify `theme` constant in the `./src/Wrapper/UXPinWrapper.js` file. You can modify any parameters described in 
+To change theme, modify `theme` constant in the [`./src/Wrapper/UXPinWrapper.js`](https://github.com/uxpin-merge/material-ui-merge/blob/master/src/Wrapper/UXPinWrapper.js) file. You can modify any parameters described in 
 the [Material UI documentation](https://material-ui.com/customization/themes/#theme-provider)
 
 ## CI Server Integration (available only for *beta users*)
 
-The recommended approach to integrating React.js components with UXPin is via Continues Integration server (Circle CI, Travis...). 
+The recommended approach to integrating React.js components with UXPin is via Continuous Integration server (Circle CI, Travis...). 
 This approach provides an opportunity to establish a real single source of truth for design and development. 
 
 After the integration with a CI server every commit to master can (if this is how your CI is configured) automatically update library in UXPin. 
@@ -98,7 +98,7 @@ Integration with CI server leads to a powerful workflow, with that however comes
 * ⚠️ Don't share your UXPin authorization token with anyone. It leads straight to your design system library in UXPin. Keep the token safe in the CI app!
 * ⚠️ Don't keep your UXPin authorization token in any file checked into your git repository.
 * ⚠️ Treat contributing to Master branch just like deploying production code. *Any* change will be automatically reflected in the UXPin library and projects. 
-If you want to experiment with components – start a new branch and use Merge dev environment – experiment mode (in this repository launched via `npm start`)
+If you want to experiment with components – start a new branch and use Merge dev environment – experiment mode (in this repository launched via `npm run start`)
 
 ## Examples
 
