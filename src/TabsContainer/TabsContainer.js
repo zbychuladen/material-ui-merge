@@ -11,10 +11,6 @@ const styles = {
 };
 
 class TabsContainer extends React.Component {
-  state = {
-    value: 0
-  };
-
   handleChange = (event, value) => {
     this.setState({ value });
   };
@@ -30,28 +26,26 @@ class TabsContainer extends React.Component {
 
       else {
         return this.props.children.map((item, i) => this.state.value === i && item);
-      } 
+      }
   }
 
   render() {
-    const { value } = this.state;
-
     return (
       <div style={styles}>
         <AppBar position="static" color={this.props.containerColor} style={this.props.style}>
-          <Tabs 
-            value={value} 
+          <Tabs
+            value={this.props.tabsValue}
             onChange={this.handleChange}
             centered={this.props.tabsCentered}
             fullWidth={this.props.tabsTabsFullWidth}
             scrollable={this.props.tabsScrollable}
             textColor={this.props.tabsTextColor}
             variant={this.props.tabsVariant}
-            defaultValue={this.props.tabsDefaultValue} 
+            defaultValue={this.props.tabsDefaultValue}
             >
             {this.props.tabs.map(item => {
                 return (
-                    <Tab 
+                    <Tab
                         label={item.label}
                     />
                 );
@@ -69,7 +63,7 @@ TabsContainer.propTypes = {
   children: PropTypes.node,
   containerColor: PropTypes.oneOf(["inherit", "primary", "secondary"]),
   containerStyle: PropTypes.object,
-  tabs: PropTypes.arrayOf(PropTypes.shape(    
+  tabs: PropTypes.arrayOf(PropTypes.shape(
     {
       label: PropTypes.string,
       classes: PropTypes.string,
@@ -84,7 +78,11 @@ TabsContainer.propTypes = {
   tabsScrollable: PropTypes.bool,
   tabsTextColor: PropTypes.oneOf(["primary", "secondary", "inherit"]),
   tabsVariant: PropTypes.oneOf(["standard", "scrollable", "fullWidth"]),
-  tabsDefaultValue: PropTypes.number
+  tabsValue: PropTypes.number
+};
+
+TabsContainer.defaultProps = {
+    tabsValue: 0,
 };
 
 export default TabsContainer;
