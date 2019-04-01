@@ -1,8 +1,6 @@
 import * as React from 'react';
 import BadgeM from '../Badge';
-import IconM from '../../Icon/Icon';
-
-const Icon = (props) => <IconM {...props}>{props.children}</IconM>
+import Icon from '../../Icon/Icon';
 
 export default (
   <BadgeM uxpId="1" badgeContent={3} color="primary">

@@ -3,6 +3,7 @@ import GridList from "../GridList";
 import GridListTile from "../../GridListTile/GridListTile";
 import GridListTileBar from "../../GridListTileBar/GridListTileBar";
 import Image from "../../Image/Image";
+import Icon from "../../Icon/Icon";
 
 export default (
   <GridList cellHeight={160} cols={3} uxpId="1">
@@ -12,11 +13,7 @@ export default (
         uxpId="1.1.2"
         title="Gdynia"
         titlePosition="top"
-        actionIcon={
-          `<Icon>
-           star_border
-          </Icon>`
-        }
+        actionIcon={<Icon uxpId="1.1.2.1">star_border</Icon>}
         actionPosition="left"
       />
     </GridListTile>
@@ -26,11 +23,7 @@ export default (
         uxpId="1.2.2"
         title="Gdansk"
         titlePosition="top"
-        actionIcon={
-          `<Icon>
-           star_border
-          </Icon>`
-        }
+        actionIcon={<Icon uxpId="1.2.2.1">star_border</Icon>}
         actionPosition="left"
       />
     </GridListTile>
@@ -40,11 +33,7 @@ export default (
         uxpId="1.3.2"
         title="Mountain View"
         titlePosition="top"
-        actionIcon={
-          `<Icon>
-           star_border
-          </Icon>`
-        }
+        actionIcon={<Icon uxpId="1.3.2.1">star_border</Icon>}
         actionPosition="left"
       />
     </GridListTile>

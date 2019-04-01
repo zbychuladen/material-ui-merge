@@ -1,5 +1,6 @@
 import * as React from "react";
 import List from "../List";
+import ListSubheader from "../../ListSubheader/ListSubheader";
 import ListItem from "../../ListItem/ListItem";
 import ListItemIcon from "../../ListItemIcon/ListItemIcon";
 import ListItemText from "../../ListItemText/ListItemText";
@@ -8,7 +9,7 @@ import Switch from "../../Switch/Switch";
 import Icon from "../../Icon/Icon";
 
 export default (
-  <List subheader={`<ListSubheader>Settings</ListSubheader>`} uxpId="1">
+  <List subheader={<ListSubheader uxpId="1.3">Settings</ListSubheader>} uxpId="1">
     <ListItem uxpId="1.1">
       <ListItemIcon uxpId="1.1.1">
         <Icon uxpId="1.1.1.1">wifi</Icon>
