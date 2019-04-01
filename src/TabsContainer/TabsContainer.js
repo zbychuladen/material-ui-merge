@@ -41,7 +41,6 @@ class TabsContainer extends React.Component {
             scrollable={this.props.tabsScrollable}
             textColor={this.props.tabsTextColor}
             variant={this.props.tabsVariant}
-            defaultValue={this.props.tabsDefaultValue}
             >
             {this.props.tabs.map(item => {
                 return (
