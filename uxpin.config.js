@@ -118,5 +118,4 @@ module.exports = {
  * 'src/ExpansionPanelSummary/ExpansionPanelSummary.js'
  * 'src/Snackbar/Snackbar.js'
  * 'src/SnackbarContent/SnackbarContent.js'
-
  */
