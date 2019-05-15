@@ -75,8 +75,6 @@ module.exports = {
         include: [
           "src/Paper/Paper.js",
           "src/Collapse/Collapse.js",
-          "src/Snackbar/Snackbar.js",
-          "src/SnackbarContent/SnackbarContent.js",
           "src/Avatar/Avatar.js",
           "src/Badge/Badge.js",
           "src/Backdrop/Backdrop.js",
@@ -118,4 +116,6 @@ module.exports = {
  * 'src/ExpansionPanelActions/ExpansionPanelActions.js',
  * 'src/ExpansionPanelDetails/ExpansionPanelDetails.js',
  * 'src/ExpansionPanelSummary/ExpansionPanelSummary.js'
+ * 'src/Snackbar/Snackbar.js'
+ * 'src/SnackbarContent/SnackbarContent.js'
  */
