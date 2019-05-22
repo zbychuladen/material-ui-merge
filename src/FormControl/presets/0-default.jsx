@@ -12,7 +12,7 @@ export default (
     </InputLabel>
     <Select uxpId="3">
       <MenuItem value="" uxpId="3.1.1">
-        <em uxpId="4">None</em>
+        None
       </MenuItem>
       <MenuItem value={10} uxpId="3.1.2">
         Ten
