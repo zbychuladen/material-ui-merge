@@ -1,4 +1,5 @@
 import * as React from "react";
+import Checkbox from "../../Checkbox/Checkbox";
 import FormGroup from "../FormGroup";
 import FormControlLabel from "../../FormControlLabel/FormControlLabel";
 import FormControl from "../../FormControl/FormControl";
@@ -10,32 +11,17 @@ export default (
     <FormGroup uxpId="3">
       <FormControlLabel
         uxpId="4"
-        control={
-          `<Checkbox
-            uxpId="5"
-            value="gilad"
-          />`
-        }
+        control={<Checkbox uxpId="5" value="gilad" />}
         label="Gilad Gray"
       />
       <FormControlLabel
         uxpId="6"
-        control={
-          `<Checkbox
-            uxpId="7"
-            value="jason"
-          />`
-        }
+        control={<Checkbox uxpId="7" value="jason" />}
         label="Jason Killian"
       />
       <FormControlLabel
         uxpId="8"
-        control={
-          `<Checkbox
-            uxpId="9"
-            value="antoine"
-          />`
-        }
+        control={<Checkbox uxpId="9" value="antoine" />}
         label="Antoine Llorca"
       />
     </FormGroup>
