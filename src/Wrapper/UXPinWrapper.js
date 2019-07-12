@@ -22,7 +22,7 @@ import blueGrey from "@material-ui/core/colors/blueGrey";
 
 const theme = createMuiTheme({
   palette: {
-    primary: { main: indigo[500] }, 
+    primary: { main: lightGreen[500] }, 
     secondary: { main: teal[100]}, 
   },
   typography: { useNextVariants: true },
